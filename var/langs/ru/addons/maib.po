@@ -1,0 +1,109 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Languages::maib.debug_log"
+msgid "Debug log all requests to var folder"
+msgstr "Отладка всех запросов в папку var"
+
+msgctxt "Languages::maib.private_key"
+msgid "Path to the private key PEM file"
+msgstr "Путь к PEM файлу с закрытым ключом"
+
+msgctxt "Languages::maib.pkey_pass"
+msgid "Private key password"
+msgstr "Пароль закрытого ключа"
+
+msgctxt "Languages::maib.public_key"
+msgid "Path to the certificate PEM file containing public key"
+msgstr "Путь к PEM-файлу сертификата"
+
+msgctxt "Languages::maib.transaction_type"
+msgid "Transaction type"
+msgstr "Тип операции"
+
+msgctxt "Languages::maib.capture"
+msgid "Capture (capture payment immediately after customer's approval)"
+msgstr "Захват (захват платежа сразу после одобрения клиента)"
+
+msgctxt "Languages::maib.authorize"
+msgid "Authorize (requires manual or automated capture after checkout)"
+msgstr "Авторизовать (требует ручного или автоматического захвата после оформления заказа)"
+
+msgctxt "Languages::maib.addon_is_disabled"
+msgid "Addon is disabled"
+msgstr "Аддон отключен"
+
+msgctxt "Languages::remote_status"
+msgid "Remote status"
+msgstr "Удаленный статус"
+
+msgctxt "Languages::maib.return_urls"
+msgid "Return and cancel URLs to be provided to bank"
+msgstr "URL возврата и отмены, которые будут предоставлены банку"
+
+msgctxt "Languages::maib.delete_keys"
+msgid "Delete all keys and passwords stored on server"
+msgstr "Удалить все ключи и пароли, хранящиеся на сервере"
+
+msgctxt "Languages::maib.delete_warning"
+msgid "WARNING: this will remove existing PEM files and password from server!"
+msgstr "ВНИМАНИЕ: это удалит существующие файлы PEM и пароль с сервера!"
+
+msgctxt "Languages::maib.pem_settings"
+msgid "PEM keys settings"
+msgstr "Настройки ключей PEM"
+
+msgctxt "Languages::maib.auto_pfx_extract"
+msgid "Auto extract PFX file"
+msgstr "Автоматическое извлечение файла PFX"
+
+msgctxt "Languages::maib.auto_pfx_text"
+msgid "If only PFX file available it can be used to extract PEM keys"
+msgstr "Если доступен только файл PFX, его можно использовать для извлечения ключей PEM."
+
+msgctxt "Languages::maib.auto_pfx_warning"
+msgid "WARNING: this will overwrite existing PEM files and password!"
+msgstr "ВНИМАНИЕ: это перезапишет существующие файлы PEM и пароль!"
+
+msgctxt "Languages::maib.auto_pfx_file"
+msgid "PFX file"
+msgstr "Файл PFX"
+
+msgctxt "Languages::maib.auto_pfx_pass"
+msgid "PFX password"
+msgstr "Пароль PFX"
+
+msgctxt "Languages::maib.private_note"
+msgid "Note: if curl is using NSS private key should be in PKCS#1 format, RSA + 3DES encryption"
+msgstr "Примечание: если curl использует NSS, закрытый ключ должен быть в формате PKCS#1, RSA + 3DES шифрование."
+
+msgctxt "Languages::maib.reverse_label"
+msgid "Reverse payment"
+msgstr "Обратный платеж"
+
+msgctxt "Languages::maib.reverse_link"
+msgid "Reverse payment amount"
+msgstr "Обратная сумма платежа"
+
+msgctxt "Languages::maib.invalid_amount"
+msgid "Invalid amount"
+msgstr "Недопустимая сумма"
+
+msgctxt "Languages::maib.amount_to_reverse"
+msgid "Amount to reverse"
+msgstr "Сумма"
+
+msgctxt "Languages::maib.reverse_amount"
+msgid "Reverse amount"
+msgstr "Вернуть сумму"
+
+msgctxt "Languages::maib.payment_not_yours"
+msgid "This payment was not made for your company"
+msgstr "Этот платеж не был сделан для вашей компании"
+
+msgctxt "Languages::maib.check_payment_status"
+msgid "Check payment status"
+msgstr "Проверить статус оплаты"

@@ -1,0 +1,109 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO"
+
+msgctxt "Languages::maib.debug_log"
+msgid "Debug log all requests to var folder"
+msgstr "Înregistrează toate solicitările în folderul var"
+
+msgctxt "Languages::maib.private_key"
+msgid "Path to the private key PEM file"
+msgstr "Calea către fișierul PEM cu cheie privată"
+
+msgctxt "Languages::maib.pkey_pass"
+msgid "Private key password"
+msgstr "Parola pentru cheia privată"
+
+msgctxt "Languages::maib.public_key"
+msgid "Path to the certificate PEM file containing public key"
+msgstr "Calea către fișierul PEM care conține cheie publică"
+
+msgctxt "Languages::maib.transaction_type"
+msgid "Transaction type"
+msgstr "Tipul tranzacției"
+
+msgctxt "Languages::maib.capture"
+msgid "Capture (capture payment immediately after customer's approval)"
+msgstr "Capturare (captarea plății imediat după aprobarea clientului)"
+
+msgctxt "Languages::maib.authorize"
+msgid "Authorize (requires manual or automated capture after checkout)"
+msgstr "Autorizare (necesită captare manuală sau automată după efectuarea plății)"
+
+msgctxt "Languages::maib.addon_is_disabled"
+msgid "Addon is disabled"
+msgstr "Addon is disabled"
+
+msgctxt "Languages::remote_status"
+msgid "Remote status"
+msgstr "Remote status"
+
+msgctxt "Languages::maib.return_urls"
+msgid "Return and cancel URLs to be provided to bank"
+msgstr "Adresele URL pentru returnare si anulare care vor fi furnizate către bancă"
+
+msgctxt "Languages::maib.delete_keys"
+msgid "Delete all keys and passwords stored on server"
+msgstr "Ștergeți toate cheile și parolele stocate pe server"
+
+msgctxt "Languages::maib.delete_warning"
+msgid "WARNING: this will remove existing PEM files and password from server!"
+msgstr "AVERTIZARE: aceasta va elimina fișierele PEM și parola existente de pe server!"
+
+msgctxt "Languages::maib.pem_settings"
+msgid "PEM keys settings"
+msgstr "Setările cheilor PEM"
+
+msgctxt "Languages::maib.auto_pfx_extract"
+msgid "Auto extract PFX file"
+msgstr "Extragerea automată a fișierului PFX"
+
+msgctxt "Languages::maib.auto_pfx_text"
+msgid "If only PFX file available it can be used to extract PEM keys"
+msgstr "Dacă este disponibil doar fișierul PFX, acesta poate fi utilizat pentru a extrage cheile PEM"
+
+msgctxt "Languages::maib.auto_pfx_warning"
+msgid "WARNING: this will overwrite existing PEM files and password!"
+msgstr "AVERTIZARE: aceasta va suprascrie fișierele PEM și parola existente!"
+
+msgctxt "Languages::maib.auto_pfx_file"
+msgid "PFX file"
+msgstr "Fișier PFX"
+
+msgctxt "Languages::maib.auto_pfx_pass"
+msgid "PFX password"
+msgstr "Parola PFX"
+
+msgctxt "Languages::maib.private_note"
+msgid "Note: if curl is using NSS private key should be in PKCS#1 format, RSA + 3DES encryption"
+msgstr "Notă: dacă curl utilizează NSS cheia privată ar trebui să fie în format PKCS#1, RSA + criptare 3DES"
+
+msgctxt "Languages::maib.reverse_label"
+msgid "Reverse payment"
+msgstr "Returnare plată"
+
+msgctxt "Languages::maib.reverse_link"
+msgid "Reverse payment amount"
+msgstr "Pagina returnare plată"
+
+msgctxt "Languages::maib.invalid_amount"
+msgid "Invalid amount"
+msgstr "Sumă incorectă"
+
+msgctxt "Languages::maib.amount_to_reverse"
+msgid "Amount to reverse"
+msgstr "Suma returnată"
+
+msgctxt "Languages::maib.reverse_amount"
+msgid "Reverse amount"
+msgstr "Returnează suma"
+
+msgctxt "Languages::maib.payment_not_yours"
+msgid "This payment was not made for your company"
+msgstr "Această plată nu a fost efectuată către compania dvstră"
+
+msgctxt "Languages::maib.check_payment_status"
+msgid "Check payment status"
+msgstr "Verifică statut plată"

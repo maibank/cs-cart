@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<addon scheme="3.0">
+    <id>maib</id>
+    <version>1.0</version>
+    <name>MAIB Payments</name>
+    <description>Make payments via MAIB</description>
+    <authors>
+        <author>
+            <name>Indrivo SRL</name>
+            <email>office@indrivo.com</email>
+            <url>http://indrivo.com</url>
+            <phone>+373-79-733-016</phone>
+        </author>
+    </authors>
+    <priority>111111</priority>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+
+    <queries>
+        <item type="file">database/data.sql</item>
+    </queries>
+    <functions>
+        <item for="uninstall">fn_maib_delete_payment_processors</item>
+    </functions>
+
+</addon>

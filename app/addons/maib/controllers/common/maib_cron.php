@@ -11,7 +11,8 @@
 ****************************************************************************/
 
 if (!defined('BOOTSTRAP') || PHP_SAPI !== 'cli') {
-    die('Access denied');
+    echo 'Access denied';
+    exit;
 }
 
 if ($mode == 'close_day' && !fn_maib_day_closed()) {

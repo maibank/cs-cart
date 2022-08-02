@@ -13,7 +13,8 @@
 use Maib\MaibApi\MaibClient;
 
 if (!defined('AREA')) {
-    die('Access denied');
+    echo 'Access denied';
+    exit;
 }
 
 if (defined('PAYMENT_NOTIFICATION')) {

@@ -13,7 +13,8 @@
 use Tygh\Registry;
 
 if (!defined('BOOTSTRAP')) {
-    die('Access denied');
+    echo 'Access denied';
+    exit;
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

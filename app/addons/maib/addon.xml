@@ -2,7 +2,7 @@
 
 <addon scheme="3.0">
     <id>maib</id>
-    <version>1.0</version>
+    <version>1.1</version>
     <name>MAIB Payments</name>
     <description>Make payments via MAIB</description>
     <authors>

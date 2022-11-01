@@ -94,6 +94,10 @@ if (defined('PAYMENT_NOTIFICATION')) {
      * get token & redirect to gateway
      */
 
+    if (CART_SECONDARY_CURRENCY != 'MDL' && CART_SECONDARY_CURRENCY != 'EUR') {
+        fn_set_notification('E', __('error'), __('maib.wrong_currency'), true);
+        return;
+    }
     $processor_data['processor_params'] += [
         'mode' => 'test',
         'private_key' => '',
@@ -106,11 +110,10 @@ if (defined('PAYMENT_NOTIFICATION')) {
     $client = fn_maib_get_client($processor_data['processor_params'], $order_info['company_id']);
 
     $amount = (float)$order_info['total'];
-    $currency = CART_PRIMARY_CURRENCY;
-    if ($currency != MAIB_CURRENCY_MDL && $currency != MAIB_CURRENCY_EUR) {
-        fn_set_notification('E', __('error'), __('maib.wrong_currency'), true);
-        return;
+    if (CART_SECONDARY_CURRENCY != CART_PRIMARY_CURRENCY) {
+        $amount = fn_format_price_by_currency($amount, CART_PRIMARY_CURRENCY, CART_SECONDARY_CURRENCY);
     }
+    $currency = (CART_SECONDARY_CURRENCY == 'MDL') ? MAIB_CURRENCY_MDL : MAIB_CURRENCY_EUR;
     $client_ip = $order_info['ip_address'];
     $description = 'Order #' . $order_id;
     $language = CART_LANGUAGE;

@@ -107,3 +107,7 @@ msgstr "This payment was not made for your company"
 msgctxt "Languages::maib.check_payment_status"
 msgid "Check payment status"
 msgstr "Check payment status"
+
+msgctxt "Languages::maib.wrong_currency"
+msgid "Wrong currency, only EUR and MDL are accepted"
+msgstr "Wrong currency, only EUR and MDL are accepted"

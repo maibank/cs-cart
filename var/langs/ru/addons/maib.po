@@ -107,3 +107,7 @@ msgstr "Этот платеж не был сделан для вашей ком�
 msgctxt "Languages::maib.check_payment_status"
 msgid "Check payment status"
 msgstr "Проверить статус оплаты"
+
+msgctxt "Languages::maib.wrong_currency"
+msgid "Wrong currency, only EUR and MDL are accepted"
+msgstr "Неверная валюта, принимаются только евро и молдавские леи"

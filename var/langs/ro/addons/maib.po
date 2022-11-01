@@ -107,3 +107,7 @@ msgstr "Această plată nu a fost efectuată către compania dvstră"
 msgctxt "Languages::maib.check_payment_status"
 msgid "Check payment status"
 msgstr "Verifică statut plată"
+
+msgctxt "Languages::maib.wrong_currency"
+msgid "Wrong currency, only EUR and MDL are accepted"
+msgstr "Moneda greșită, se acceptă doar EUR și MDL"

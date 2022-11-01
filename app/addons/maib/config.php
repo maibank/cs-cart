@@ -28,3 +28,4 @@ fn_define('MAIB_RESULT_AUTOREVERSED', 'AUTOREVERSED'); //transaction is reversed
 fn_define('MAIB_RESULT_TIMEOUT', 'TIMEOUT'); //transaction was timed out
 fn_define('MAIB_RESULT_CODE', 'RESULT_CODE');
 fn_define('MAIB_CURRENCY_MDL', 498);
+fn_define('MAIB_CURRENCY_EUR', 978);

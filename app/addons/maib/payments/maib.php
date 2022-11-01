@@ -107,9 +107,9 @@ if (defined('PAYMENT_NOTIFICATION')) {
 
     $amount = (float)$order_info['total'];
     $currency = CART_PRIMARY_CURRENCY;
-    if ($currency != MAIB_CURRENCY_MDL) {
-        $amount = fn_format_price_by_currency($amount, CART_PRIMARY_CURRENCY, MAIB_CURRENCY_MDL);
-        $currency = MAIB_CURRENCY_MDL;
+    if ($currency != MAIB_CURRENCY_MDL && $currency != MAIB_CURRENCY_EUR) {
+        fn_set_notification('E', __('error'), __('maib.wrong_currency'), true);
+        return;
     }
     $client_ip = $order_info['ip_address'];
     $description = 'Order #' . $order_id;
